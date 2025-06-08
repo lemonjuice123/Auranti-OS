@@ -34,11 +34,12 @@ int dialogCount = 5;
 int dialogIndex = 0;
 String selectedFilePath = "";
 
-#define BTN_UP     35   // GPIO35 - input only, good for buttons
-#define BTN_DOWN   34   // GPIO34 - input only, good for buttons  
-#define BTN_LEFT   39   // GPIO39 - input only, good for buttons
-#define BTN_RIGHT  36   // GPIO36 - input only, good for buttons
-#define BTN_SELECT 0    // GPIO0 - BOOT button, safe to use
+
+#define BTN_UP     32   // GPIO32 - good for buttons
+#define BTN_DOWN   33   // GPIO33 - good for buttons  
+#define BTN_LEFT   25   // GPIO25 - good for buttons
+#define BTN_RIGHT  26   // GPIO26 - good for buttons
+#define BTN_SELECT 27   // GPIO27 - good for buttons
 #define SD_CS      5    // SD card chip select pin
 
 uint16_t splashBitmap[160 * 80];
